@@ -9,6 +9,4 @@ def leftpad(strng, leng, char):
     for st in strng:
         new_string.append(st)
     new_new_string = ''.join([elem for elem in new_string])
-    print(new_new_string)
-    
-leftpad('string', 6, 'h')
+    return new_new_string
